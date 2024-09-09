@@ -1,4 +1,4 @@
-
+#
 
 # Here is the updated part in the cli -> axolotl -> train.py when using a base model that has a conflict with rope_scaling:
 ### update in do_train():
@@ -19,3 +19,6 @@ def do_train(cfg, cli_args) -> Tuple[PreTrainedModel, PreTrainedTokenizer]:
    ... rest of the code
     
     return train(cfg=cfg, cli_args=cli_args, dataset_meta=dataset_meta)
+
+
+# https://github.com/modal-labs/llm-finetuning
