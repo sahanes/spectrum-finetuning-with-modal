@@ -1,6 +1,6 @@
 
 
-# here is the updated part in the cli -> axolotl -> train.py when using a base model that has a conflict with rope_scaling:
+# Here is the updated part in the cli -> axolotl -> train.py when using a base model that has a conflict with rope_scaling:
 ### update in do_train():
 
 def do_train(cfg, cli_args) -> Tuple[PreTrainedModel, PreTrainedTokenizer]:
