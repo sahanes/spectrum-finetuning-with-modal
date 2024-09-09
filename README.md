@@ -1,7 +1,7 @@
 
 
 # here is the updated part in the cli -> axolotl -> train.py when using a base model that has a conflict with rope_scaling:
-## in do_train, after check_user_token():
+### update in do_train():
 
 def do_train(cfg, cli_args) -> Tuple[PreTrainedModel, PreTrainedTokenizer]:
     print_axolotl_text_art()
